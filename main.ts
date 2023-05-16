@@ -28,10 +28,10 @@ basic.forever(function () {
         wuKong.setMotorSpeed(wuKong.MotorList.M2, -35)
     }
     if (I == 5) {
-        wuKong.setMotorSpeed(wuKong.MotorList.M2, -80)
+        wuKong.setMotorSpeed(wuKong.MotorList.M1, -80)
     }
     if (I == 6) {
-        wuKong.setMotorSpeed(wuKong.MotorList.M2, 80)
+        wuKong.setMotorSpeed(wuKong.MotorList.M1, 80)
     }
     if (I == 0) {
         wuKong.stopAllMotor()
